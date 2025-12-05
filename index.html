@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Password Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="page-wrapper">
+    <div class="container" role="region" aria-labelledby="page-title">
+      <header class="header">
+        <h2 id="page-title">Generate a <span>random password</span></h2>
+        <p class="subtitle">Never use an insecure password again.</p>
+      </header>
+
+      <section class="controls">
+        <label for="inputLength" class="label">Enter the length of password</label>
+        <input
+          type="number"
+          id="inputLength"
+          class="length-input"
+          inputmode="numeric"
+          min="1"
+          placeholder="e.g. 16"
+          aria-label="Password length"
+        />
+        <button id="generateBtn" class="generate-btn">Generate passwords</button>
+      </section>
+
+      <section class="output-section" aria-live="polite">
+        <p class="subtitle small">Click a password to copy</p>
+        <div class="output-box">
+          <div class="password-box" id="pass1" tabindex="0" title="Password 1"></div>
+          <div class="password-box" id="pass2" tabindex="0" title="Password 2"></div>
+        </div>
+        <p id="copied"></p>
+      </section>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
