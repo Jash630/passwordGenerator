@@ -42,8 +42,4 @@ This is my first GitHub repository as I begin my journey into open-source and so
 ## 👨‍💻 Developer
 **Jash Dudhat**  
 Aspiring AI Engineer | Generative AI | Agentic AI | Web Development  
-
 LinkedIn: *https://www.linkedin.com/in/jash-dudhat-53286429a/*  
-
-
-## 📂 Project Structure
