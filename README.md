@@ -45,7 +45,5 @@ Aspiring AI Engineer | Generative AI | Agentic AI | Web Development
 
 LinkedIn: *https://www.linkedin.com/in/jash-dudhat-53286429a/*  
 
----
-
 
 ## 📂 Project Structure
